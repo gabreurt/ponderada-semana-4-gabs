@@ -1,27 +1,21 @@
-# PonderadaS4
+# Relatório sobre o Tutorial de Construção de Formulários Dinâmicos com Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+## Introdução
 
-## Development server
+O relatório dessa semana (4) tem como objetivo fornecer uma análise do tutorial sobre a construção de formulários dinâmicos com Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Conceitos Aprendidos
 
-## Code scaffolding
+O tutorial ensina como criar formulários que podem se adaptar dinamicamente a diferentes cenários e requisitos. Isso é alcançado através do uso de metadados que descrevem o modelo do formulário.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+!['Página rodando localmente'](./src/assets/working.png)
 
-## Build
+Além disso, ele usa Reactive Forms do Angular, que é muito bom para lidar com fluxos de dados assíncronos e reagir a mudanças no estado da aplicação de forma eficiente. Também, é muito nítido como o Angular é uma estrutura baseada em componentes, e o tutorial demonstra como dividir a aplicação em componentes reutilizáveis e como modularizar o código. Assim, fica muito mais fácil seguir as melhores práticas de arquitetura de software.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Falando do formulário em si, ele usa o recurso de injeção de dependência do Angular para fornecer serviços e componentes em toda a aplicação de forma eficiente. Assim, ele aborda a validação de entrada de dados em formulários, garantindo que apenas dados válidos sejam aceitos.
 
-## Running unit tests
+!['Página rodando localmente'](./src/assets/validacao.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Conclusão
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+O tutorial de Construção de Formulários Dinâmicos com Angular fornece uma introdução abrangente aos conceitos e tecnologias essenciais para o desenvolvimento de aplicativos web modernos e mostra as melhores formas de criar um sistema com uma boa lógica e modularização.
